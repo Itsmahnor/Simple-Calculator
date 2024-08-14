@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  
+}
+.Container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 5rem;
+font-size: 2rem;
+}
+#Show{
+    width:500px;
+    /* background-color: black; */
+    color: black;
+   padding-left: 1rem;
+    line-height: 5rem;
+    height: 5rem;
+    border: 2px solid black;
+}
+h1{
+    text-align: center;
+    background-color:black;
+    color: white;
+   padding: 3rem;
+   border: 2px solid white;
+
+
+}
+
+.box{
+    height:500px;
+    width:500px;
+  
+    display: flex;
+    justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+border: 2px solid black;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+align-items: center;
+   height:100px;
+   width:124px;
+   border: 2px solid black;
+}
+#equal{
+    height:100px;
+    width:248px;
+    background-color:green;
+    color:white;
+    font-size: 3rem;
+}
+.c-b{
+    background-color: black;
+    color:white;
+    border: 2px solid white;
+}
